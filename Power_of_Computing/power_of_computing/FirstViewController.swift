@@ -10,6 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var userNameTf:UITextField!
+    @IBOutlet weak var userIdTf:UITextField!
+    @IBOutlet weak var passwordTf:UITextField!
+    @IBOutlet weak var ageTf:UITextField!
+    @IBOutlet weak var genderTf:UITextField!
+    @IBOutlet weak var errorTf:UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
