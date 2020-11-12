@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F852EE82543D73C00706090 /* project_proposal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_proposal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F852EE82543D73C00706090 /* power_of_computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = power_of_computing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F852EEB2543D73C00706090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F852EED2543D73C00706090 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3F852EEF2543D73C00706090 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		3F852EDF2543D73C00706090 = {
 			isa = PBXGroup;
 			children = (
-				3F852EEA2543D73C00706090 /* project_proposal */,
+				3F852EEA2543D73C00706090 /* power_of_computing */,
 				3F852EE92543D73C00706090 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		3F852EE92543D73C00706090 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F852EE82543D73C00706090 /* project_proposal.app */,
+				3F852EE82543D73C00706090 /* power_of_computing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F852EEA2543D73C00706090 /* project_proposal */ = {
+		3F852EEA2543D73C00706090 /* power_of_computing */ = {
 			isa = PBXGroup;
 			children = (
 				3F852EEB2543D73C00706090 /* AppDelegate.swift */,
@@ -76,15 +76,15 @@
 				3F852F052543E3A700706090 /* WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg */,
 				3F852EF92543D73E00706090 /* Info.plist */,
 			);
-			path = project_proposal;
+			path = power_of_computing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F852EE72543D73C00706090 /* project_proposal */ = {
+		3F852EE72543D73C00706090 /* power_of_computing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F852EFC2543D73E00706090 /* Build configuration list for PBXNativeTarget "project_proposal" */;
+			buildConfigurationList = 3F852EFC2543D73E00706090 /* Build configuration list for PBXNativeTarget "power_of_computing" */;
 			buildPhases = (
 				3F852EE42543D73C00706090 /* Sources */,
 				3F852EE52543D73C00706090 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = project_proposal;
+			name = power_of_computing;
 			productName = project_proposal;
-			productReference = 3F852EE82543D73C00706090 /* project_proposal.app */;
+			productReference = 3F852EE82543D73C00706090 /* power_of_computing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F852EE32543D73C00706090 /* Build configuration list for PBXProject "project_proposal" */;
+			buildConfigurationList = 3F852EE32543D73C00706090 /* Build configuration list for PBXProject "power_of_computing" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F852EE72543D73C00706090 /* project_proposal */,
+				3F852EE72543D73C00706090 /* power_of_computing */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F852EE32543D73C00706090 /* Build configuration list for PBXProject "project_proposal" */ = {
+		3F852EE32543D73C00706090 /* Build configuration list for PBXProject "power_of_computing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F852EFA2543D73E00706090 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F852EFC2543D73E00706090 /* Build configuration list for PBXNativeTarget "project_proposal" */ = {
+		3F852EFC2543D73E00706090 /* Build configuration list for PBXNativeTarget "power_of_computing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F852EFD2543D73E00706090 /* Debug */,
