@@ -48,6 +48,14 @@ class FirstViewController: UIViewController {
 
         }
         }
+    }
+        //This method is used to sign in to app
+func signIn(sender:Any){
+            let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "login") as! UIViewController
+             addNewRestaurantVC.modalPresentationStyle = .fullScreen
+                              self.present(addNewRestaurantVC, animated: true, completion: nil)
+            
+        }
+    
 
-}
 
