@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F852EEC2543D73C00706090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EEB2543D73C00706090 /* AppDelegate.swift */; };
-		3F852EEE2543D73C00706090 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EED2543D73C00706090 /* FirstViewController.swift */; };
+		3F852EEE2543D73C00706090 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EED2543D73C00706090 /* SignUpViewController.swift */; };
 		3F852EF02543D73C00706090 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EEF2543D73C00706090 /* SecondViewController.swift */; };
 		3F852EF32543D73C00706090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF12543D73C00706090 /* Main.storyboard */; };
 		3F852EF52543D73E00706090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF42543D73E00706090 /* Assets.xcassets */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		3F852EE82543D73C00706090 /* power_of_computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = power_of_computing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F852EEB2543D73C00706090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F852EED2543D73C00706090 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3F852EED2543D73C00706090 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3F852EEF2543D73C00706090 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3F852EF22543D73C00706090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F852EF42543D73E00706090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				3F852EEB2543D73C00706090 /* AppDelegate.swift */,
-				3F852EED2543D73C00706090 /* FirstViewController.swift */,
+				3F852EED2543D73C00706090 /* SignUpViewController.swift */,
 				3F852EEF2543D73C00706090 /* SecondViewController.swift */,
 				3F852EF12543D73C00706090 /* Main.storyboard */,
 				3F852F012543E28200706090 /* betty synder.jpeg */,
@@ -156,7 +156,7 @@
 			files = (
 				3F852EF02543D73C00706090 /* SecondViewController.swift in Sources */,
 				3F852EEC2543D73C00706090 /* AppDelegate.swift in Sources */,
-				3F852EEE2543D73C00706090 /* FirstViewController.swift in Sources */,
+				3F852EEE2543D73C00706090 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
