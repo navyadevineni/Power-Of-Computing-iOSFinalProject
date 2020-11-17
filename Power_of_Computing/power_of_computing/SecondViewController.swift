@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SecondViewController: UIViewController {
 
@@ -29,7 +30,24 @@ class SecondViewController: UIViewController {
             
             self.present(alertController, animated: true, completion: nil)
         
-        }
+        }else {
+        
+        Auth.auth().signIn(withEmail: self.userNameTf.text!, password: self.userPasswordTf.text!) { (user, error) in
+            
+            if error == nil {
+                
+                
+                print("You have successfully logged in")
+                
+                //Go to the HomeViewController if the login is sucessful
+                let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "first") as! UIViewController
+                addNewRestaurantVC.modalPresentationStyle = .fullScreen
+                self.present(addNewRestaurantVC, animated: true, completion: nil)
+                
+            }
 
 }
 
+}
+}
+}
