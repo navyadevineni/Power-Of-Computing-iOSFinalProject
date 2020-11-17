@@ -10,11 +10,10 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var userFName:UITextField!
     @IBOutlet weak var userNameTf:UITextField!
-    @IBOutlet weak var userIdTf:UITextField!
     @IBOutlet weak var passwordTf:UITextField!
     @IBOutlet weak var ageTf:UITextField!
-    @IBOutlet weak var genderTf:UITextField!
     @IBOutlet weak var errorTf:UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +21,9 @@ class SignUpViewController: UIViewController {
     }
     //This method is used for signup to app
     @IBAction func signUp(sender:Any){
-        if  passwordTf.text!.count>0 && userIdTf.text!.count>0  {
+        if  passwordTf.text!.count>0 && userNameTf.text!.count>0  {
 
-         Auth.auth().createUser(withEmail: userIdTf.text!, password: passwordTf.text!) { (user, error) in
+         Auth.auth().createUser(withEmail: userNameTf.text!, password: passwordTf.text!) { (user, error) in
             
 
             if error == nil {
@@ -60,7 +59,7 @@ class SignUpViewController: UIViewController {
     
         //This method is used to sign in to app
 func signIn(sender:Any){
-            let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "login") as! UIViewController
+    let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "login")!
              addNewRestaurantVC.modalPresentationStyle = .fullScreen
                               self.present(addNewRestaurantVC, animated: true, completion: nil)
 

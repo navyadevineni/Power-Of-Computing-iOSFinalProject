@@ -39,6 +39,8 @@ class Resources {
         Resource(name:"Clarisse Sieckenius De Souza",details: ["Clarisse Sieckenius De Souza","Clarisse Sieckenius de Souza is a Full Professor at the Informatics Department of Pontifical Catholic University of Rio de Janeiro, where she does research in the area of Human–Computer Interaction and has developed the theory of Semiotic Engineering."]),
         Resource(name:"Cristina Amon",details: ["Cristina Amon","Cristina H. Amon is a mechanical engineer, academic administrator and was the 13th dean of the University of Toronto Faculty of Applied Science and Engineering. She was the Faculty's first female dean."]),
         Resource(name:"Deborah Estrin",details: ["Deborah Estrin","Deborah Estrin is a Professor of Computer Science at Cornell Tech. She is co-founder of the non-profit Open mHealth and gave a TEDMED talk on small data in 2013. Estrin is known for her work on sensor networks, mobile health, and small data."]),
+        Resource(name:"George Boole",details: ["George Boole","Programmers and electronic engineers have a lot to thank to this self-taught mathematician for developing Boolean algebra. Those bit operations, Boolean variables and logic gates will not be the same without his rules."]),
+        Resource(name:"Charles Babbage",details: ["Charles Babbage","The father of the computer is a common name for this English polymath credited with the design of a mechanical computer, the analytical engine, with things like control flow and memory, essential features the modern computer."]),
     ]
     
     private init(){
