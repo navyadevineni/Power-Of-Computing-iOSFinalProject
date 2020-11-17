@@ -17,6 +17,9 @@
 		3F852F022543E28200706090 /* betty synder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F852F012543E28200706090 /* betty synder.jpeg */; };
 		3F852F042543E2C300706090 /* tim.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F852F032543E2C300706090 /* tim.jpeg */; };
 		3F852F062543E3A700706090 /* WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F852F052543E3A700706090 /* WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg */; };
+		3FD7CF16256348E30029F80E /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7CF15256348E30029F80E /* Resource.swift */; };
+		3FD7CF1925634A9D0029F80E /* ImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7CF1825634A9D0029F80E /* ImageTableViewController.swift */; };
+		3FD7CF1C25634B210029F80E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7CF1B25634B210029F80E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		3F852F012543E28200706090 /* betty synder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "betty synder.jpeg"; sourceTree = "<group>"; };
 		3F852F032543E2C300706090 /* tim.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tim.jpeg; sourceTree = "<group>"; };
 		3F852F052543E3A700706090 /* WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg"; sourceTree = "<group>"; };
+		3FD7CF15256348E30029F80E /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		3FD7CF1825634A9D0029F80E /* ImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewController.swift; sourceTree = "<group>"; };
+		3FD7CF1B25634B210029F80E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				3F852EF62543D73E00706090 /* LaunchScreen.storyboard */,
 				3F852F052543E3A700706090 /* WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg */,
 				3F852EF92543D73E00706090 /* Info.plist */,
+				3FD7CF15256348E30029F80E /* Resource.swift */,
+				3FD7CF1825634A9D0029F80E /* ImageTableViewController.swift */,
+				3FD7CF1B25634B210029F80E /* DetailViewController.swift */,
 			);
 			path = power_of_computing;
 			sourceTree = "<group>";
@@ -154,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD7CF1925634A9D0029F80E /* ImageTableViewController.swift in Sources */,
 				3F852EF02543D73C00706090 /* SecondViewController.swift in Sources */,
+				3FD7CF16256348E30029F80E /* Resource.swift in Sources */,
+				3FD7CF1C25634B210029F80E /* DetailViewController.swift in Sources */,
 				3F852EEC2543D73C00706090 /* AppDelegate.swift in Sources */,
 				3F852EEE2543D73C00706090 /* SignUpViewController.swift in Sources */,
 			);
