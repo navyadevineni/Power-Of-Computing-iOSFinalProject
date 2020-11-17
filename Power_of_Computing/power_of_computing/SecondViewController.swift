@@ -44,8 +44,16 @@ class SecondViewController: UIViewController {
                 addNewRestaurantVC.modalPresentationStyle = .fullScreen
                 self.present(addNewRestaurantVC, animated: true, completion: nil)
                 
+            }else {
+            
+            //Tells the user that there is an error and then gets firebase to tell them the error
+            let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true, completion: nil)
             }
-
 }
 
 }
