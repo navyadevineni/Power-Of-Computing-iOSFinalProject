@@ -23,8 +23,8 @@ class SignUpViewController: UIViewController {
     //This method is used for signup to app
     @IBAction func signUp(sender:Any){
         if  passwordTf.text!.count>0 && userIdTf.text!.count>0  {
-           
-            Auth.auth().createUser(withEmail: userIdTf.text!, password: passwordTf.text!) { (user, error) in
+        
+         Auth.auth().createUser(withEmail: userIdTf.text!, password: passwordTf.text!) { (user, error) in
             
             if error == nil {
                 print("You have successfully signed up")
@@ -63,7 +63,6 @@ func signIn(sender:Any){
              addNewRestaurantVC.modalPresentationStyle = .fullScreen
                               self.present(addNewRestaurantVC, animated: true, completion: nil)
     }
-        }
-    
+}
 
 
