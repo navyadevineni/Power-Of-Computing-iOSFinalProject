@@ -47,15 +47,23 @@ class SignUpViewController: UIViewController {
         }
 
         }
+        else {
+            let alertController = UIAlertController(title: "Enter Required Fields", message: "", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true, completion: nil)
         }
-    }
+        }
+    
         //This method is used to sign in to app
 func signIn(sender:Any){
             let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "login") as! UIViewController
              addNewRestaurantVC.modalPresentationStyle = .fullScreen
                               self.present(addNewRestaurantVC, animated: true, completion: nil)
-            
-        }
+    }
+        }
     
 
 
