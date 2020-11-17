@@ -58,4 +58,11 @@ class SecondViewController: UIViewController {
 
 }
 }
+    
+    //This method is used for signup to app
+    @IBAction func signUp(sender:Any){
+        let addNewRestaurantVC = storyboard?.instantiateViewController(withIdentifier: "signup") as! UIViewController
+         addNewRestaurantVC.modalPresentationStyle = .fullScreen
+        self.present(addNewRestaurantVC, animated: true, completion: nil)
+    }
 }
