@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class SecondViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     @IBOutlet weak var userNameTf:UITextField!
     @IBOutlet weak var userPasswordTf:UITextField!
