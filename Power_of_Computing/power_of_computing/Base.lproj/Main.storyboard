@@ -317,7 +317,7 @@
         <!--Table View-->
         <scene sceneID="qQ9-4J-ACO">
             <objects>
-                <tableViewController storyboardIdentifier="MenuTVC" id="0i7-s5-On4" customClass="ImageTableViewController" customModule="power_of_computing" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MenuTVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0i7-s5-On4" customClass="ImageTableViewController" customModule="power_of_computing" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="PVt-DT-XCb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -346,7 +346,7 @@
         <!--Item-->
         <scene sceneID="T5W-7k-XV6">
             <objects>
-                <viewController id="tEP-Ly-cKf" customClass="DetailViewController" customModule="power_of_computing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="tEP-Ly-cKf" customClass="DetailViewController" customModule="power_of_computing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bLU-5M-8bp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,7 +397,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="5rR-Qm-RWZ"/>
                         <segue destination="pdq-BT-hBw" kind="relationship" relationship="viewControllers" id="Zb8-0w-LLW"/>
                         <segue destination="0i7-s5-On4" kind="relationship" relationship="viewControllers" id="5EW-St-C1K"/>
                         <segue destination="QAc-Iz-WxW" kind="relationship" relationship="viewControllers" id="ekg-6t-Hav"/>

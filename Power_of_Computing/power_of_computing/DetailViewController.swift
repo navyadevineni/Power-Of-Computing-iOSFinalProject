@@ -10,19 +10,17 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-    var resource:Resource!
-    var image = UIImage()
-
     @IBOutlet weak var imageLBL:UIImageView!
     @IBOutlet weak var nameLBL:UILabel!
     @IBOutlet weak var descLBL:UITextView!
     
+    var resource:Resource!
+    var img = UIImage()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+   
     override func viewWillAppear(_ animated: Bool) {
         nameLBL.text = resource.details[0]
         descLBL.text = resource.details[1]
