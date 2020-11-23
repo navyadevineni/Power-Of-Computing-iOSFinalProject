@@ -11,8 +11,8 @@
 		3F50F21D256A201400FA5079 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F21C256A201400FA5079 /* QuestionBank.swift */; };
 		3F50F220256A205800FA5079 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F21F256A205800FA5079 /* Question.swift */; };
 		3F50F224256A234000FA5079 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F223256A234000FA5079 /* SignInViewController.swift */; };
+		3F50F228256C1BD700FA5079 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F227256C1BD700FA5079 /* SignUpViewController.swift */; };
 		3F852EEC2543D73C00706090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EEB2543D73C00706090 /* AppDelegate.swift */; };
-		3F852EEE2543D73C00706090 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EED2543D73C00706090 /* SignUpViewController.swift */; };
 		3F852EF32543D73C00706090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF12543D73C00706090 /* Main.storyboard */; };
 		3F852EF52543D73E00706090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF42543D73E00706090 /* Assets.xcassets */; };
 		3F852EF82543D73E00706090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF62543D73E00706090 /* LaunchScreen.storyboard */; };
@@ -30,9 +30,9 @@
 		3F50F21C256A201400FA5079 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		3F50F21F256A205800FA5079 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3F50F223256A234000FA5079 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3F50F227256C1BD700FA5079 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3F852EE82543D73C00706090 /* power_of_computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = power_of_computing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F852EEB2543D73C00706090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F852EED2543D73C00706090 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3F852EF22543D73C00706090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F852EF42543D73E00706090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F852EF72543D73E00706090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				3F852EEB2543D73C00706090 /* AppDelegate.swift */,
-				3F852EED2543D73C00706090 /* SignUpViewController.swift */,
 				3F852EF12543D73C00706090 /* Main.storyboard */,
 				3F852F012543E28200706090 /* betty synder.jpeg */,
 				3F852EF42543D73E00706090 /* Assets.xcassets */,
@@ -93,6 +92,7 @@
 				3F50F21C256A201400FA5079 /* QuestionBank.swift */,
 				3F50F21F256A205800FA5079 /* Question.swift */,
 				3F50F223256A234000FA5079 /* SignInViewController.swift */,
+				3F50F227256C1BD700FA5079 /* SignUpViewController.swift */,
 			);
 			path = power_of_computing;
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 				3F50F220256A205800FA5079 /* Question.swift in Sources */,
 				3FD7CF16256348E30029F80E /* Resource.swift in Sources */,
 				3F50F224256A234000FA5079 /* SignInViewController.swift in Sources */,
+				3F50F228256C1BD700FA5079 /* SignUpViewController.swift in Sources */,
 				3FD7CF1C25634B210029F80E /* DetailViewController.swift in Sources */,
 				3F852EEC2543D73C00706090 /* AppDelegate.swift in Sources */,
-				3F852EEE2543D73C00706090 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
