@@ -42,7 +42,7 @@ class SignInViewController: UIViewController {
                     print("You have successfully logged in")
                     
                     //Go to the HomeScreenViewController if the login is sucessful
-                    let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Home Screen") as! UIViewController
+                    let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! UIViewController
                     addNewRestaurantVC.modalPresentationStyle = .fullScreen
                     self.present(addNewRestaurantVC, animated: true, completion: nil)
                     

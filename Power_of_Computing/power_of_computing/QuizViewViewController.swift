@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QuizViewController: UIViewController {
+class QuizzViewController: UIViewController {
 
     
     @IBOutlet weak var questionCounterLBL : UILabel!
