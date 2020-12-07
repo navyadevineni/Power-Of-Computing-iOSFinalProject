@@ -443,9 +443,9 @@
                     </view>
                     <connections>
                         <outlet property="ageTf" destination="Qpt-Yt-dE0" id="WOb-4W-svK"/>
-                        <outlet property="errorTf" destination="dNG-ra-Za6" id="x7R-mx-uny"/>
+                        <outlet property="errorTf" destination="dNG-ra-Za6" id="wmF-BM-KmK"/>
                         <outlet property="passwordTf" destination="5Mi-hw-Ggx" id="Hlo-rE-rHj"/>
-                        <outlet property="userIdTf" destination="OhV-69-dU6" id="rGl-BM-hFC"/>
+                        <outlet property="userIdTf" destination="OhV-69-dU6" id="4Li-vg-l6q"/>
                         <outlet property="userNameTf" destination="8d0-eT-xg6" id="Nye-1e-IPS"/>
                     </connections>
                 </viewController>
