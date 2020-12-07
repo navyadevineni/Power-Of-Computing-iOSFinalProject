@@ -41,8 +41,8 @@ class SignInViewController: UIViewController {
                     
                     print("You have successfully logged in")
                     
-                    //Go to the HomeViewController if the login is sucessful
-                    let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "first") as! UIViewController
+                    //Go to the HomeScreenViewController if the login is sucessful
+                    let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Home Screen") as! UIViewController
                     addNewRestaurantVC.modalPresentationStyle = .fullScreen
                     self.present(addNewRestaurantVC, animated: true, completion: nil)
                     
@@ -63,7 +63,7 @@ class SignInViewController: UIViewController {
     }
     //This method is used for signup to app
     @IBAction func signUp(sender:Any){
-        let addNewRestaurantVC = storyboard?.instantiateViewController(withIdentifier: "signup") as! UIViewController
+        let addNewRestaurantVC = storyboard?.instantiateViewController(withIdentifier: "Sign Up") as! UIViewController
          addNewRestaurantVC.modalPresentationStyle = .fullScreen
         self.present(addNewRestaurantVC, animated: true, completion: nil)
     }

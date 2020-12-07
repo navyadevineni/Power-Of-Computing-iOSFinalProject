@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		3F50F220256A205800FA5079 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F21F256A205800FA5079 /* Question.swift */; };
 		3F50F224256A234000FA5079 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F223256A234000FA5079 /* SignInViewController.swift */; };
 		3F50F228256C1BD700FA5079 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50F227256C1BD700FA5079 /* SignUpViewController.swift */; };
+		3F8098C9257E1CCE0050B6BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8098C8257E1CCE0050B6BC /* GoogleService-Info.plist */; };
 		3F852EEC2543D73C00706090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F852EEB2543D73C00706090 /* AppDelegate.swift */; };
 		3F852EF32543D73C00706090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF12543D73C00706090 /* Main.storyboard */; };
 		3F852EF52543D73E00706090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F852EF42543D73E00706090 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		3F50F21F256A205800FA5079 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3F50F223256A234000FA5079 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3F50F227256C1BD700FA5079 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3F8098C8257E1CCE0050B6BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3F852EE82543D73C00706090 /* power_of_computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = power_of_computing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F852EEB2543D73C00706090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F852EF22543D73C00706090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,7 +78,6 @@
 				F10D40EABF158D2C62389AD3 /* Pods-power_of_computing.debug.xcconfig */,
 				F2E51C97B6E18EE4D2D89821 /* Pods-power_of_computing.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,6 +102,7 @@
 		3F852EEA2543D73C00706090 /* power_of_computing */ = {
 			isa = PBXGroup;
 			children = (
+				3F8098C8257E1CCE0050B6BC /* GoogleService-Info.plist */,
 				3F852EEB2543D73C00706090 /* AppDelegate.swift */,
 				3F852EF12543D73C00706090 /* Main.storyboard */,
 				3F852F012543E28200706090 /* betty synder.jpeg */,
@@ -183,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F852EF82543D73E00706090 /* LaunchScreen.storyboard in Resources */,
+				3F8098C9257E1CCE0050B6BC /* GoogleService-Info.plist in Resources */,
 				3F852F002543E1FF00706090 /* steve.jpeg in Resources */,
 				3F852F062543E3A700706090 /* WhatsApp Image 2020-10-23 at 11.22.11 PM.jpeg in Resources */,
 				3F852F042543E2C300706090 /* tim.jpeg in Resources */,
