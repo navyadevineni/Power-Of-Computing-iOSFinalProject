@@ -442,7 +442,7 @@
                         <accessibility key="accessibilityConfiguration" identifier="Sign Up"/>
                     </view>
                     <connections>
-                        <outlet property="ageTf" destination="Qpt-Yt-dE0" id="SJ5-nT-0X4"/>
+                        <outlet property="ageTf" destination="Qpt-Yt-dE0" id="WOb-4W-svK"/>
                         <outlet property="errorTf" destination="dNG-ra-Za6" id="x7R-mx-uny"/>
                         <outlet property="passwordTf" destination="5Mi-hw-Ggx" id="bFt-pS-sNu"/>
                         <outlet property="userIdTf" destination="OhV-69-dU6" id="rGl-BM-hFC"/>
