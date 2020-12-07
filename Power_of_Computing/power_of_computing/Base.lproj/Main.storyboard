@@ -331,7 +331,7 @@
         <!--Sign UP-->
         <scene sceneID="Gfg-2A-ukF">
             <objects>
-                <viewController restorationIdentifier="Sign Up" storyboardIdentifier="Sign Up" title="Sign UP" id="r3O-kf-bV3" customClass="SignupViewController" customModule="power_of_computing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Sign Up" storyboardIdentifier="Sign Up" title="Sign UP" id="r3O-kf-bV3" customClass="SignUpViewController" customModule="power_of_computing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ClW-s7-WiI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -420,13 +420,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-M0-rmN" customClass="FBSDKButton">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-M0-rmN" customClass="FUIAuthSignInButton">
                                 <rect key="frame" x="256" y="529" width="79" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Sign In"/>
                                 <connections>
-                                    <action selector="signInSender:" destination="r3O-kf-bV3" eventType="touchUpInside" id="L4t-5h-800"/>
+                                    <action selector="signInSender:" destination="r3O-kf-bV3" eventType="touchUpInside" id="Lq3-4a-ovP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNG-ra-Za6">
