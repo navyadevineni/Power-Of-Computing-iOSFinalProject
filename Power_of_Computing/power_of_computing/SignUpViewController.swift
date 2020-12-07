@@ -15,7 +15,7 @@ import Firebase
       @IBOutlet weak var userIdTf:UITextField!
       @IBOutlet weak var passwordTf:UITextField!
       @IBOutlet weak var ageTf:UITextField!
-      @IBOutlet weak var genderTf:UITextField!
+
       @IBOutlet weak var errorTf:UILabel!
      
      
