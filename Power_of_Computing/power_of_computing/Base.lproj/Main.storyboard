@@ -410,7 +410,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="signUpWithSender:" destination="r3O-kf-bV3" eventType="touchUpInside" id="69e-aW-dcc"/>
+                                    <action selector="signUpWithSender:" destination="r3O-kf-bV3" eventType="touchUpInside" id="Gtj-pG-WzD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8N2-r5-XUO">
