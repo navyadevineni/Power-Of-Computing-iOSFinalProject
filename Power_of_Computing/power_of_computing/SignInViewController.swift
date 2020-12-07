@@ -63,9 +63,9 @@ class SignInViewController: UIViewController {
     }
     //This method is used for signup to app
     @IBAction func signUp(sender:Any){
-        let addNewRestaurantVC = storyboard?.instantiateViewController(withIdentifier: "Sign Up") as! UIViewController
-         addNewRestaurantVC.modalPresentationStyle = .fullScreen
-        self.present(addNewRestaurantVC, animated: true, completion: nil)
+        let addNewRestaurantVC = storyboard?.instantiateViewController(withIdentifier: "Sign Up")
+        addNewRestaurantVC?.modalPresentationStyle = .fullScreen
+        self.present(addNewRestaurantVC!, animated: true, completion: nil)
     }
                 
    
