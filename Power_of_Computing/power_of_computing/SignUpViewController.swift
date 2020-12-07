@@ -9,7 +9,7 @@
  import UIKit
 import Firebase
 
- class SignupViewController: UIViewController {
+ class SignUpViewController: UIViewController {
 
       @IBOutlet weak var userNameTf:UITextField!
       @IBOutlet weak var userIdTf:UITextField!
@@ -33,7 +33,7 @@ import Firebase
              if error == nil {
                  print("You have successfully signed up")
                  //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
-                 let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Sign Up") as! UIViewController
+                 let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Sign UP") as! UIViewController
                   addNewRestaurantVC.modalPresentationStyle = .fullScreen
                      self.present(addNewRestaurantVC, animated: true, completion: nil)
                  
