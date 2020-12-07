@@ -33,7 +33,7 @@ import Firebase
              if error == nil {
                  print("You have successfully signed up")
                  //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
-                 let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Sign up") as! UIViewController
+                 let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Sign Up") as! UIViewController
                   addNewRestaurantVC.modalPresentationStyle = .fullScreen
                      self.present(addNewRestaurantVC, animated: true, completion: nil)
                  
@@ -66,10 +66,10 @@ import Firebase
  }
      //This method is used to sign in to app
       @IBAction func signIn(sender:Any){
-         let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Sign In") as! UIViewController
-          addNewRestaurantVC.modalPresentationStyle = .fullScreen
-                           self.present(addNewRestaurantVC, animated: true, completion: nil)
-         
-     }
+          let addNewRestaurantVC = self.storyboard?.instantiateViewController(withIdentifier: "Sign In") as! UIViewController
+           addNewRestaurantVC.modalPresentationStyle = .fullScreen
+                            self.present(addNewRestaurantVC, animated: true, completion: nil)
+          
+      }
  }
 
